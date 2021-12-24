@@ -22,3 +22,10 @@ Then, doing researches about how to build an application and server. If there ar
 Summary of the day : Java script is a very power language which supports both front-end and back-end programming, also it is an object-oriented language as well as functional language. HTML is like the skeleton of a website and CSS adds up a lot of amazing features on that skeleton. 
 
 Plan for Day 2: In order to remember the front-end knowlege, I will build the main page of the website and some other pages like user profile, product page.
+
+#### Day 2 (Dec 23, 2021)
+There are many obstacles about the grid layout which I did not understand the logic in depth. So the progress today is quite minimal.
+
+The lack of comprehensive knowledge made me only finished the top search bar interface. Comparing with the plan made on Dec 22, there is still more than half of the work to do in order to go to the JavaScript step.
+
+Plan for Day 3: Since I will be working in the next 3 days, I will count the next 3 days as 1 days. Understand grid layout and complete the tasks left from Day2.
