@@ -29,3 +29,10 @@ There are many obstacles about the grid layout which I did not understand the lo
 The lack of comprehensive knowledge made me only finished the top search bar interface. Comparing with the plan made on Dec 22, there is still more than half of the work to do in order to go to the JavaScript step.
 
 Plan for Day 3: Since I will be working in the next 3 days, I will count the next 3 days as 1 days. Understand grid layout and complete the tasks left from Day2.
+
+#### Day 3 (Dec 27,2021)
+The main page of website has completed. 
+
+As I have some degree of familarity to the front end programming from building the main page, I will start to design the back architecture.
+
+Plan for Day 4: determine the language and framework I will be using for the website. Decide the scope of minimum viable product. From the scope defined, highlight the techniques and algorithms will be using for the website.
