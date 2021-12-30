@@ -1,0 +1,19 @@
+body{
+    background-color : #D2691E;
+}
+a:link{
+    color : black;
+}
+a:visited { 
+    color:black;
+}
+a:hover { 
+    color:black;
+}
+a:active { 
+    color:#A9A9A9;
+}
+a.logo_font{
+    font-family: 'Shizuru', cursive;
+    text-decoration: none;
+}

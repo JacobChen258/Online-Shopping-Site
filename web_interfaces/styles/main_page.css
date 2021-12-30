@@ -1,24 +1,4 @@
-body{
-    color : #D2691E;
-}
-a:link{
-    color : black;
-}
-a:visited { 
-    color:black;
-}
-a:hover { 
-    color:black;
-}
-a:active { 
-    color:#A9A9A9;
-}
-a.logo_font{
-    font-family: 'Shizuru', cursive;
-    text-decoration: none;
-    margin-left: 10px;
-    width : 100px;
-}
+@import "general.css";
 .top_bar{
     display : grid;
     grid-template-columns: 200px auto 100px 100px;
@@ -30,6 +10,12 @@ a.logo_font{
     "logo search account cart";
     position: sticky;
     top: 0;
+}
+.main_logo{
+    margin-left: 10px;
+    width: 100px;
+    grid-area: "logo";
+    font-size: small;
 }
 .search_bar{
     grid-area: "search";
