@@ -36,3 +36,12 @@ The main page of website has completed.
 As I have some degree of familarity to the front end programming from building the main page, I will start to design the back architecture.
 
 Plan for Day 4: determine the language and framework I will be using for the website. Decide the scope of minimum viable product. From the scope defined, highlight the techniques and algorithms will be using for the website.
+
+#### Day 4 (Dec 28,2021)
+Choice of frame works:
+    Front-end: React (JS)
+    Front to Server Communication: Express (JS)
+    Server: Django (Python)
+    Database Language: PostgreSQL
+
+Complete the ERD database design and set up schema, tables and indexes in the postgreSQL server.
