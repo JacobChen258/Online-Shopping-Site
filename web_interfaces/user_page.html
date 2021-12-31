@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles/user_page.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Shizuru&display=swap" rel="stylesheet"> 
+        <title> MyShoppingWeb</title>
+    </head>
+    <body>
+        <div class = "top_bar">
+            <a class="logo_font main_logo" href="./main_page.html"><h1>MyShoppingWeb</h1></a>
+            <div class = "search_bar"> 
+                <input type = "text">
+                <button type = "button">Search</button>
+            </div>
+            <a class="account_icon" href = "./login_page.html">
+                <img src="img_main/account_icon.png" width="35px">
+                <div font-size = "10px">Account</div>
+            </a>
+            <a class="shopping_cart" href = "./main_page.html">
+                <img src="img_main/shopping-cart-20392.png" width ="45px">
+                <div style="position: absolute;top:4px;left:22px">0</div>
+            </a>
+        </div>
+        <div class = "user_container">
+            <div class = "user_display_info">
+                <div class = "user_pic_container">
+                    <img class = "user_pic" src = "img_main/account_icon.png">
+                    <button class = "pic_upload" type = "button"> upload</button>
+                </div>
+                <div class = "welcome_container">
+                    <p class ="welcome_font">Welcome!</p>
+                    <p class = "username_font"> User Name </p>
+                </div>
+                <div class = "description_container">
+                    <p>You are not our seller yet. <a href = #>Join Now!</a></p>
+                    <div><label for = "description">Description: </label></div>
+                    <textarea id="description" class = "user_description" rows="6" cols="50"></textarea>
+                    <button class = "save_button" type="button">save</button>
+                </div>
+            </div>
+            <div class = "user_profile">
+                <div class = "header">
+                    <p>Profile Info</p>
+                    <button type = "button">Edit</button>
+                </div>
+                <div class = "info_box">
+                    <div>
+                        <span><p>User Name:</p></span>
+                        <p id = "input_name" class = "profile_content">Input User Name</p>
+                    </div>
+                    <div>
+                        <span><p>Email:</p></span>
+                        <p id = "input_email" class = "profile_content">Input Email</p>
+                    </div>
+                    <div>
+                        <span><p>Address:</p></span>
+                        <p id = "input_adress" class = "profile_content">Input Address</p>
+                    </div>
+                    <div>
+                        <span><p>Acount Balance: </p></span>
+                        <p id = "account_balance" class = "profile_content"> 0 </p>
+                    </div>
+                </div>
+            </div>
+            <div class = "payment_profile">
+                <div class = "header">
+                    <p>Payment Info</p>
+                    <button type = "button">Edit</button>
+                </div>
+                <div class = "info_box">
+                    <div>
+                        <span><p>Card Number:</p></span>
+                        <p id = "card_number" class = "profile_content">4321 4321 4321 4321</p>
+                    </div>
+                    <div>
+                        <span><p>First Name:</p></span>
+                        <p id = "first_name" class = "profile_content">FirstName</p>
+                    </div>
+                    <div>
+                        <span><p>Last Name:</p></span>
+                        <p id = "last_name" class = "profile_content">LastName</p>
+                    </div>
+                    <div>
+                        <span><p>CVV</p></span>
+                        <p id = "cvv" class = "profile_content"> CVV </p>
+                    </div>
+                    <div>
+                        <span><p>Expire Date</p></span>
+                        <p id = "expire_date" class = "profile_content"> 01/01</p>
+                    </div>
+                    <div>
+                        <span><p>Billing Address</p></span>
+                        <p id = "bill_addr" class = "profile_content"> Home </p>
+                    </div>
+                    <div>
+                        <span><p>Postal Code</p></span>
+                        <p id = "postal" class = "profile_content"> L5L3R3  </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </body>
+</html>
