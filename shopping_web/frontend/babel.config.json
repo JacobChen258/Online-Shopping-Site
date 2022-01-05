@@ -1,0 +1,18 @@
+{   
+    // preset config
+    "presets":[
+        [   
+            // config environment
+            "@babel/preset-env",
+            {
+                "targets":{
+                    "node":"10"
+                }
+            }
+        ],
+        // add babel react package
+        "@babel/preset-react"
+    ],
+    // for async
+    "plugins":["@babel/plugin-proposal-class-properties"]
+}

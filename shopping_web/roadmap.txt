@@ -1,0 +1,22 @@
+To initialize project
+    `django-admin startproject projectname`
+In the project file
+    `django-admin startapp appname`
+    use this for both backend and frontend
+
+Note `--save-dev` saves the package dependencies into package.json
+    However, `--save-dev` will only save the dependencies to the devDependencies section
+    `--save` will save to the dependencies section
+    Some of the packages or plugins cannot be in devDependencies, so be careful
+
+For frontend framework and plugins (in frontend directory)
+    `npm init -y` initialize version, package.json
+
+    install webpack, this is used to transpile all file into one JS file
+        `npm i webpack webpack-cli --save-dev`
+    install babel for react to valid browser version control
+        `npm install -D babel-loader @babel/core @babel/preset-env #babel/preset-react`
+    install material ui package
+        `npm install @material-ui/core`
+    install babel class properties
+        `npm install @babel/plugin-proposal-class-properties`

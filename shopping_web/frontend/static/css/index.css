@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(50,50,50);
+}
+
+#main{
+    background-color: rgb(230,230,230);
+    margin: -10px;
+    padding: 20px;
+}
+
+.logo_font{
+    font-family: 'Shizuru', cursive;
+    text-decoration: none;
+}
