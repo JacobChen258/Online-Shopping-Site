@@ -1,47 +1,261 @@
-# 14-days-challenge: Shopping Web 
+<div id="top"></div>
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-## Objective
 
-This project is designated for website building practice and learning the knowledge that a back-end programmer should have. I will be coding some basic user interface and mainly focus on the back-end.
 
-The final product is an amazon-like shopping website. There will be some components included like paymen system, review session, searching product and user log in system.
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-Some functionality that is good to have will be the recommendation system.
 
-#### learning goals
-Learn the major languages will be used in this project from zero to proficient, JavaScript, HTML and CSS.
-Practice Software design, system design and network in project.
-Getting to know how different APIs collaborate with each other to build a complete product.
 
-## Journals
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <h3 align="center">Online-Shopping-Site</h3>
 
-#### Day 1 (Dec 22, 2021)
-In order to have a big picture of how to implement the project from scratch, I am setting today's goal as to learn the basics and logics under the hook of three languages JS, HTML and CSS, and review software design, network models. 
-Then, doing researches about how to build an application and server. If there are still time left, I will look up some databases that are suitable for this project.
+  <p align="center">
+    <div>A Full-Stack Project of User-Seller Ecommerce Site</div>
+    <br />
+    <a href="https://github.com/JacobChen258/Online-Shopping-Site"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/JacobChen258/Online-Shopping-Site/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/JacobChen258/Online-Shopping-Site/issues">Request Feature</a>
+    <br/>
+    <br/>
+    <div>This project is still <strong>In Progress</strong> and <strong>Not Deployed</strong>.</div>
+  </p>
+</div>
 
-Summary of the day : Java script is a very power language which supports both front-end and back-end programming, also it is an object-oriented language as well as functional language. HTML is like the skeleton of a website and CSS adds up a lot of amazing features on that skeleton. 
 
-Plan for Day 2: In order to remember the front-end knowlege, I will build the main page of the website and some other pages like user profile, product page.
 
-#### Day 2 (Dec 23, 2021)
-There are many obstacles about the grid layout which I did not understand the logic in depth. So the progress today is quite minimal.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <!--<li><a href="#usage">Usage</a></li>-->
+    <li><a href="#roadmap">Roadmap</a></li>
+    <!--<li><a href="#contributing">Contributing</a></li>-->
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-The lack of comprehensive knowledge made me only finished the top search bar interface. Comparing with the plan made on Dec 22, there is still more than half of the work to do in order to go to the JavaScript step.
 
-Plan for Day 3: Since I will be working in the next 3 days, I will count the next 3 days as 1 days. Understand grid layout and complete the tasks left from Day2.
 
-#### Day 3 (Dec 27,2021)
-The main page of website has completed. 
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-As I have some degree of familarity to the front end programming from building the main page, I will start to design the back architecture.
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
+My Shopping site is a Ecommerce Website allows users to purchase items and list items for selling.
 
-Plan for Day 4: determine the language and framework I will be using for the website. Decide the scope of minimum viable product. From the scope defined, highlight the techniques and algorithms will be using for the website.
+### Initiative
+This project is initiated for the purpose of praticing full-stack development procedures. What I have learned from Uninversity so far, are the components on stacks, so I wonder how I should connect those components and knowledge together to build a website.
 
-#### Day 4 (Dec 28,2021)
-Choice of frame works:
-    Front-end: React (JS)
-    Front to Server Communication: Express (JS)
-    Server: Django (Python)
-    Database Language: PostgreSQL
+Besides frontend UI and server interaction, online shopping site also needs account and payment security and 
+an admin to manage the flow of goods, which I believe it is the best practice for full-stack development.
 
-Complete the ERD database design and set up schema, tables and indexes in the postgreSQL server.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+### Built With
+
+#### Stacks
+* [React](https://reactjs.org)
+* [Django](https://www.djangoproject.com)
+* [Django-Rest](https://www.django-rest-framework.org)
+* [Postgresql](https://www.postgresql.org)
+#### Others
+* [JQuery](https://jquery.com)
+* [Babel](https://babeljs.io)
+* [Webpack](https://webpack.js.org)
+* [React-Icons](https://react-icons.github.io/react-icons/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+In order to avoid version conflicts, these following steps are recommanded to be done in virtual environment
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+ * [python](https://www.python.org/downloads/)
+ * django
+  ```sh
+  pip install Django==4.0.1
+  ```
+ * django-rest
+  ```sh
+  pip install djangorestframework
+  ```
+  
+
+### Installation
+
+In order to avoid version conflicts, these following steps are recommanded to be done in virtual environment
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/JacobChen258/Online-Shopping-Site.git
+   ```
+2. Go to `/shopping_web`
+   run server with default database
+   ```sh
+   python manage.py makemigrations
+   python manage.py migrate
+   python manage.py runserver
+   ```
+   run server with your empty database
+   * open `/shopping_web/shopping_web/settings.py`
+   * add your database in `DATABASES` section
+   then, run the following command 
+   ```sh
+   python manage.py makemigrations
+   python manage.py migrate --database=database_name
+   python manage.py runserver
+   ```
+3. Copy local host IP from terminal
+4. Open a new terminal and go to `/shopping_web/front-end`
+5. Install NPM packages
+   ```sh
+   npm install
+   ```
+6. Run web server
+   ```ssh
+   npm run dev
+   ```
+7. Open My Shopping Site using pasted IP as url to browser
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- USAGE EXAMPLES -->
+<!--
+## Usage
+
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+_For more examples, please refer to the [Documentation](https://example.com)_
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+-->
+
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+- [100%] Setting up stacks (Installation and Database Design)
+- [80%] Front-end skeleton pages
+- [20%] User registration
+- [0%] Seller sign up and item creation
+- [0%] Payment Method
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- CONTRIBUTING
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+-->
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See [LICENSE.txt](https://github.com/JacobChen258/Online-Shopping-Site/blob/main/LICENSE) for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Litao Chen - litao.chen@mail.utoronto.ca
+
+Project Link: [https://github.com/JacobChen258/Online-Shopping-Site](https://github.com/JacobChen258/Online-Shopping-Site)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+Great Appreciation to 
+* [React Icons](https://react-icons.github.io/react-icons/search)
+* [Markdown Template](https://github.com/othneildrew/Best-README-Template/blob/master/README.md)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/JacobChen258/Online-Shopping-Site/blob/main/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/litao-jacob-chen-98680614a/
+[product-screenshot]: images/screenshot.png
