@@ -191,10 +191,12 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [20%] User registration
 - [0%] Seller sign up and item creation
 - [0%] Payment Method
+- [0%] Client and Server Side Cache
+- [0%] Server Side File System and Logs
 #### Good to Have
-- [] User-Seller Chat Box
-- [] Adminitrator
-- [] Recommandation (Machine Learning)
+- [0%] User-Seller Chat Box
+- [0%] Adminitrator
+- [0%] Recommandation (Machine Learning)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -233,6 +235,8 @@ Distributed under the MIT License. See [LICENSE.txt](https://github.com/JacobChe
 Litao Chen - litao.chen@mail.utoronto.ca
 
 Project Link: [https://github.com/JacobChen258/Online-Shopping-Site](https://github.com/JacobChen258/Online-Shopping-Site)
+
+GitHub Home Page: [https://github.com/JacobChen258/JacobChen](https://github.com/JacobChen258/JacobChen)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
