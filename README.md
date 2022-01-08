@@ -76,10 +76,10 @@
 ## About The Project
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
-My Shopping site is a Ecommerce Website allows users to purchase items and list items for selling.
+My Shopping site is a Ecommerce Website allows users to purchase items and list items for selling. 
 
 ### Initiative
-This project is initiated for the purpose of praticing full-stack development procedures. What I have learned from Uninversity so far, are the components on stacks, so I wonder how I should connect those components and knowledge together to build a website.
+This project is initiated for learning full-stack development procedures and practicing design models. With zero experience of front-end coding, my first goal is to learn and practice HTML, CSS and JavaScript from start. Then, to comprehance client-server communication in practice.
 
 Besides frontend UI and server interaction, online shopping site also needs account and payment security and 
 an admin to manage the flow of goods, which I believe it is the best practice for full-stack development.
@@ -242,6 +242,7 @@ Project Link: [https://github.com/JacobChen258/Online-Shopping-Site](https://git
 Great Appreciation to 
 * [React Icons](https://react-icons.github.io/react-icons/search)
 * [Markdown Template](https://github.com/othneildrew/Best-README-Template/blob/master/README.md)
+* [Django & React Turorial](https://www.youtube.com/watch?v=JD-age0BPVo&list=PLzMcBGfZo4-kCLWnGmK0jUBmGLaJxvi4j)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
