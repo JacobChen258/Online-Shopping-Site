@@ -15,7 +15,7 @@ For frontend framework and plugins (in frontend directory)
     install webpack, this is used to transpile all file into one JS file
         `npm i webpack webpack-cli --save-dev`
     install babel for react to valid browser version control
-        `npm install -D babel-loader @babel/core @babel/preset-env #babel/preset-react`
+        `npm install -D babel-loader @babel/core @babel/preset-env @babel/preset-react`
     install material ui package
         `npm install @material-ui/core`
     install babel class properties

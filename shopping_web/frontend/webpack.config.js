@@ -1,5 +1,7 @@
 const path = require("path");
 const webpack = require("webpack");
+var HtmlWebpackPlugin = require('html-webpack-plugin');
+
 
 module.exports = {
     // determine the entry javascript file (relative path)
@@ -12,10 +14,28 @@ module.exports = {
     module: {
         rules:[
             {
+                test:/\.css$/,
+                use:[
+                    { loader: 'style-loader' },
+                    { loader: 'css-loader',
+                      options: {
+                          modules:true,
+                          import: true
+                      }},
+                ],
+            },
+            {
                 test: /\.js$/,
                 exclude: /node_modules/,
                 use: {
                     loader: "babel-loader",
+                },
+            },
+            {
+                test: /\.(jpg|png|svg)$/,
+                loader: 'file-loader',
+                options: {
+                  name: '[path][name].[hash].[ext]',
                 },
             },
         ],
@@ -25,7 +45,14 @@ module.exports = {
         // speed up the load time of web
         minimize: true,
     },
+    resolve: {
+        extensions: ['', '.js', '.jsx', '.css']
+    },
     plugins:[
+        new HtmlWebpackPlugin({
+            template: './templates/frontend/index.html'
+        }),
+        
         new webpack.DefinePlugin({
             "process.env":{
                 // This has effect on the react lib size
