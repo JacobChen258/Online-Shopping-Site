@@ -185,13 +185,16 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- ROADMAP -->
 ## Roadmap
-
+#### In-Scope
 - [100%] Setting up stacks (Installation and Database Design)
 - [80%] Front-end skeleton pages
 - [20%] User registration
 - [0%] Seller sign up and item creation
 - [0%] Payment Method
-
+#### Good to Have
+- [] User-Seller Chat Box
+- [] Adminitrator
+- [] Recommandation (Machine Learning)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
