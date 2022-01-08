@@ -29,9 +29,10 @@
 
   <p align="center">
     <div>A Full-Stack Project of User-Seller Ecommerce Site</div>
+  <!--
     <br />
     <a href="https://github.com/JacobChen258/Online-Shopping-Site"><strong>Explore the docs »</strong></a>
-    <br />
+    <br />-->
     <br />
     <a href="https://github.com/JacobChen258/Online-Shopping-Site/issues">Report Bug</a>
     ·
