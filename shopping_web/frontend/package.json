@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development --watch",
+    "dev": "webpack --mode development  --watch",
     "build": "webpack --mode production"
   },
   "keywords": [],
@@ -29,7 +29,15 @@
   },
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@redux-devtools/extension": "^3.1.0",
+    "axios": "^0.24.0",
+    "js-cookie": "^3.0.1",
+    "react-alert": "^7.0.3",
+    "react-alert-template-basic": "^1.0.2",
     "react-icons": "^4.3.1",
-    "react-router-dom": "^6.2.1"
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.1",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.1"
   }
 }

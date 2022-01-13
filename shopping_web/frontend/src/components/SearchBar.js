@@ -11,7 +11,7 @@ export default function SearchBar(){
                 name="seach_content"
                 className={searchBar.search_text}
             />
-            <button id="submit_btn"type="submit" className={searchBar.search_button}>Search</button>
+            <button type="submit" className={searchBar.search_button}>Search</button>
         </form>
     )
 }

@@ -4,20 +4,17 @@
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width,initial-scale=1"/>
         <title>MyShoppingWeb</title>
-        <!- this allow use to load files from static dir-->
         {% load static %}
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Shizuru&display=swap" rel="stylesheet"> 
-        <!-<link rel="stylesheet" type="text/css" href="{% static "css/index.css" %}"/>-->
     </head>
     <body style="background-color: rgb(50,50,50);">
         <div id = "main" style = "margin:-10px;padding:10px;display: flex;flex-direction: column;">
-            <!- for this app div, react will take over the control of this div-->
             <div id = "app"></div>
         </div>
 
-        <script src = "{% static "frontend/main.js" %}"></script>
+        <script src = "{% static 'frontend/main.js' %}"></script>
     </body>
 </html>

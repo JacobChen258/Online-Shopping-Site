@@ -52,12 +52,12 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: './templates/frontend/index.html'
         }),
-        
         new webpack.DefinePlugin({
             "process.env":{
                 // This has effect on the react lib size
                 NODE_ENV: JSON.stringify("development"),
-            },
+                REACT_APP_API_URL: JSON.stringify("http://localhost:8000")
+            }
         }),
     ],
 }

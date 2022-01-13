@@ -1,0 +1,16 @@
+
+export const REGISTER_SUCCESS = "REGISTER_SUCCESS";
+
+export const REGISTER_FAIL = "REGISTER_FAIL";
+
+export const LOGIN_SUCCESS = "REGISTER_SUCCESS";
+
+export const LOGIN_FAIL = "REGISTER_FAIL";
+
+export const LOGOUT_SUCCESS = "REGISTER_SUCCESS";
+
+export const LOGOUT_FAIL = "REGISTER_FAIL";
+
+export const DELETE_SUCCESS = "REGISTER_SUCCESS";
+
+export const DELETE_FAIL = "REGISTER_FAIL";

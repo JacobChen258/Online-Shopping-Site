@@ -11,8 +11,7 @@ const UserState = {
         user_name: "Jaocb Chen",
         user_password: "abcd",
         car_path:null,
-        user_icon: ()=>{return<FaUserCircle/>}
+        user_icon: ()=>{return <FaUserCircle/>}
     }
 };
-
 export default UserState;
