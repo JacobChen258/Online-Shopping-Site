@@ -1,0 +1,15 @@
+To run the django framwork,
+    each time after we modified the code
+        `python ./manage.py makemigrations`
+        to detect changes
+    After updated all changes 
+        `python ./manage.py migrate`
+    Then,
+        `python ./manage.py runserver`
+        this will give us an url to the web server
+        enter the url from browser to see web page.
+
+To run the frontend,
+    after backend server is running
+    go to frontend dir, run
+        `npm run dev` (this will run the dev mode defined in pakage.json)
