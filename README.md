@@ -85,6 +85,10 @@ This project is initiated for learning full-stack development procedures and pra
 Besides frontend UI and server interaction, online shopping site also needs account and payment security and 
 an admin to manage the flow of goods, which I believe it is the best practice for full-stack development.
 
+#### Time Commitment
+As school started on 10th Jan, 2022, I won't be able to spend more than 10 hours per week on this project.
+So the time commitment per week will be 10 hours and at least one commit.
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -102,6 +106,8 @@ an admin to manage the flow of goods, which I believe it is the best practice fo
 * [Babel](https://babeljs.io)
 * [Webpack](https://webpack.js.org)
 * [React-Icons](https://react-icons.github.io/react-icons/)
+* [Django Rest](https://www.django-rest-framework.org)
+* [Redux](https://redux.js.org)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -188,13 +194,15 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Roadmap
 #### In-Scope
 - [100%] Setting up stacks (Installation and Database Design)
-- [80%] Front-end skeleton pages
-- [20%] User registration
+- [60%] Front-end skeleton pages (Still need to do item, checkout, cart pages)
+- [50%] User registration
+     - Got stuck on session authentication. Cookies are retreived and sent by server, but browser does not store them. 
+     - Preparing to switching to token authentication (JWT)
 - [0%] Seller sign up and item creation
 - [0%] Payment Method
+#### Good to Have
 - [0%] Client and Server Side Cache
 - [0%] Server Side File System and Logs
-#### Good to Have
 - [0%] User-Seller Chat Box
 - [0%] Adminitrator
 - [0%] Recommandation (Machine Learning)
